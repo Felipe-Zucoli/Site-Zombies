@@ -41,12 +41,7 @@ nav li a:hover {
     display: block;
 }
 
-body {
-    background-image: url("MoonBackgroound.jpg");
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-} /* Background */ 
+
 
 .dropdown_menu {
     position: absolute;
@@ -59,44 +54,3 @@ body {
     display: block;
     background-color: rgb(52, 52, 51);
 }
-.video {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex: 1 1 0;
-}
-
-.direito_uso {
-    background-color: rgb(54, 54, 54);
-    border-style: solid;
-    
-}
-
-text {
-    color: orange;
-    font-family: sans-serif;
-    font-size: small;
-    display: flex;
-    justify-content: center;
-    flex: 1;
-    margin-top: 15px;
-}
-
-.footer_social {
-    display: flex;
-    justify-content: center;
-    margin-top: 2px;
-}
-
-.footer_social a {
-    padding: 15px;
-    text-decoration: none;
-    color: black;
-    font-size: x-large;
-}
-
-.footer_social a:hover {
-    color: orange;
-}
-
