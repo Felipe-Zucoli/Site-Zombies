@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(117, 118, 120);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+} /* Feito alinhamento e cor do Backgroound, melhor trocar de preto para um cinza ou outro tom. */
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    color: red;
+    padding: 20px;
+} /* Feito cor dos links na lista, onde o vermelho remete a cor do cod zombies */
+
+
+nav li a:hover {
+    background-color: rgb(63, 61, 61);
+    color: orange;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: red;
+} /* Feito a troca do backgroound quando usuário passa o mouse por cima, trazendo uma cor que remete muito ao cod BO4 */ 
+  /* Feito troca, onde foi feito a mudança de cores somente no texto, ficando mais bonito e menos poluído*/
+
+
+.Games {
+    display: inline-block;
+    font-family: sans-serif;
+} /* Troca da fonte e fazendo o bloco de nomes em linha */
+
+.Games:hover .dropdown_menu{
+    display: block;
+}
+
+body {
+    background-image: url("MoonBackgroound.jpg");
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} /* Background */ 
+
+.dropdown_menu {
+    position: absolute;
+    box-shadow: 0 0 2px orange;
+    display: none;
+    
+}
+
+.dropdown_menu a{
+    display: block;
+    background-color: rgb(52, 52, 51);
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex: 1 1 0;
+}
+
+.direito_uso {
+    background-color: rgb(54, 54, 54);
+    border-style: solid;
+    
+}
+
+text {
+    color: orange;
+    font-family: sans-serif;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin-top: 15px;
+}
+
+.footer_social {
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.footer_social a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+.footer_social a:hover {
+    color: orange;
+}
+
