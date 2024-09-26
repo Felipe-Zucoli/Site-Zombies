@@ -19,6 +19,8 @@ nav a {
     display: inline-block;
     color: red;
     padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid transparent; /* Adicionado para arrumar problema, onde a bordar expandia a barra de navegação */
 } /* Feito cor dos links na lista, onde o vermelho remete a cor do cod zombies */
 
 
@@ -28,6 +30,8 @@ nav li a:hover {
     border-style: solid;
     border-radius: 5px;
     border-color: red;
+    padding: 20px;
+    box-sizing: border-box;
 } /* Feito a troca do backgroound quando usuário passa o mouse por cima, trazendo uma cor que remete muito ao cod BO4 */ 
   /* Feito troca, onde foi feito a mudança de cores somente no texto, ficando mais bonito e menos poluído*/
 
