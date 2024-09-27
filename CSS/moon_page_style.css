@@ -96,23 +96,48 @@ body::before {
     font-family: sans-serif;
     font-weight: 700;
     font-size: medium;
-    display: flex;
-    justify-content: center;
+    display: block;
     align-items: center;
-    text-align: center;
     padding-right: 300px;
     padding-left: 300px;
+}
+
+.info_text {
+    margin-top: 10px;
 }
 
 .Img_referencia {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    padding-right: 650px;
 }
-
-
 
 .img_texto {
     display: flex;
     justify-content: center;
+    padding-right: 770px;
+    margin-top: 3px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: small;
+    font-weight: 600;
+}
+
+#Head_steps {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.Texst_steps {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: medium;
 }
